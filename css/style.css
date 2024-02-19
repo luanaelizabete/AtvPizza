@@ -1,14 +1,27 @@
-@font-face {
-    font-family: "Inter Bold";
-    src: url(./../fontes/Inter-Bold.ttf);
+/*TOPO*/
+
+.topo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0px;
+    gap: 10px;
+    position: relative;
+    width: auto;
+    height: 40px;
+    background: #E5F4FF;
 }
 
-@font-face {
-    font-family: "Inter Bold";
-    src: url(./../fontes/Inter-Light.ttf);
+.topo__marca{
+   font-family: var(--font-bold);
+   
 }
+.topo__titulo{
+color: var(--color-azul-escuro);
+}
+ 
 
-@font-face {
-    font-family: "Inter Bold";
-    src: url(./../fontes/Inter-Regular.ttf);
-}
+
+
