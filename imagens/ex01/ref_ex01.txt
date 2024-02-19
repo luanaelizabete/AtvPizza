@@ -1,9 +1,0 @@
-Imagem: cabecalhos_back.png
-Cor do Fundo: #fff6d8
-Cor dos Títulos: #906718
-Caixa Importante: #d48b00
-Linha/Régua
-   - Cor: #d48b00
-   - Espessura: 3px
-   - Estilo: Tracejada
-

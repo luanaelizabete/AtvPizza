@@ -1,5 +1,0 @@
-Cor de Fundo:#fcfcfc
-Cor do título (letra e borda): #764e36
-Cor do fundo dos subtítulos: #764e36
-Cor da letra dos subtítulos: branco
-Cor das molduras das imagens: #764e36
