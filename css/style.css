@@ -1,27 +1,39 @@
 /*TOPO*/
 
 .topo {
+    font-family: var(--font-bold);
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    align-content: center;
-    padding: 0px;
-    gap: 10px;
-    position: relative;
-    width: auto;
-    height: 40px;
-    background: #E5F4FF;
+    height: 66px;
+    font-size: 2rem;
+    background-color: var(--color-azul-claro);
 }
 
-.topo__marca{
-   font-family: var(--font-bold);
-   
+.topo__marca {
+    color: var(--color-preto);
 }
-.topo__titulo{
-color: var(--color-azul-escuro);
+
+.topo__titulo {
+    color: var(--color-azul-escuro);
+    padding-left: 8px;
 }
- 
 
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 104px;
+    font-size: 1rem;
+    background-color: var(--color-azul-claro);
+    height: 144px;
+    text-align: center;
+}
 
+.rodape__endereco {}
 
+.rodape__icones {
+    font-size: 1.25rem;
+}
+
+.rodape__redes-sociais {}
