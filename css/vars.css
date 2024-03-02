@@ -22,9 +22,18 @@
     --color-cinza-claro: #eee;
     --color-cinza-escuro: #D9D9D9;
     --color-sucesso: #48d05f;
+    --color-sucesso-hover: #237e32;
     --color-danger: #e92929;
+    --color-danger-hover: #a50000;
     --color-azul-claro: #e5f4ff;
     --color-azul-escuro: #1298f8;
     --color-azul-mt-escuro: #0d74be;
     font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    .modal {
+        padding: 16px;
+        gap: 20
+    }
 }
