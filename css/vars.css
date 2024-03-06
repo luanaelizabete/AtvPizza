@@ -30,10 +30,3 @@
     --color-azul-mt-escuro: #0d74be;
     font-size: 16px;
 }
-
-@media (max-width: 600px) {
-    .modal {
-        padding: 16px;
-        gap: 20
-    }
-}
