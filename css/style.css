@@ -202,3 +202,108 @@
                                     .botao--vermelho:hover {
                                         background-color: var( --color-danger-hover);
                                     }
+                                    /*Modal Carrinho*/
+                                    
+                                    .modal-carrinho {
+                                        border-color: var(--color-preto)(0, 0, 0, 1);
+                                        border-style: solid;
+                                        border-width: 1px;
+                                        display: flex;
+                                        max-width: 504px;
+                                        flex-direction: column;
+                                        padding: 32px 8px 80px;
+                                        gap: 20px;
+                                        background-color: var(--color-azul-claro);
+                                    }
+                                    
+                                    .modal-carrinho__topo {
+                                        color: var(--color-preto);
+                                        font: 700 28px Inter, sans-serif;
+                                        margin: 0 16px;
+                                    }
+                                    /*Pizzas*/
+                                    
+                                    .modal-carrinho__item {
+                                        display: flex;
+                                        align-items: center;
+                                        gap: 16px;
+                                        padding-bottom: 16px;
+                                    }
+                                    
+                                    .modal-carrinho__img {
+                                        width: 73px;
+                                    }
+                                    
+                                    .modal-carrinho__titulo {
+                                        font-family: Inter, sans-serif;
+                                        white-space: nowrap;
+                                    }
+                                    
+                                    .modal-carrinho__preco {
+                                        font-family: Inter, sans-serif;
+                                        white-space: nowrap;
+                                        margin-top: 8px;
+                                    }
+                                    /*Quantidade*/
+                                    
+                                    .modal-carrinho__controle-unidade {
+                                        margin-left: auto;
+                                        margin-right: 16px;
+                                        border-radius: 16px;
+                                        background-color: var(--color-cinza-claro);
+                                        font-size: 1.25rem;
+                                        overflow: hidden;
+                                    }
+                                    
+                                    .modal-carrinho__controle-unidade button {
+                                        padding: 12px 16px;
+                                    }
+                                    
+                                    .modal-carrinho__controle-unidade button:hover {
+                                        background-color: var(--color-cinza-escuro);
+                                    }
+                                    /*Compra*/
+                                    
+                                    .modal-carrinho__subtotal,
+                                    .modal-carrinho__desconto,
+                                    .modal-carrinho__total {
+                                        justify-content: center;
+                                        display: flex;
+                                        padding-right: 31px;
+                                        flex-direction: column;
+                                        flex-grow: 1;
+                                    }
+                                    
+                                    .modal-carrinho__total {
+                                        font-weight: 800;
+                                        font-size: 20px;
+                                    }
+                                    
+                                    .modal-carrinho__texto {
+                                        font-family: Inter, sans-serif;
+                                        font-weight: 700;
+                                        flex-grow: 1;
+                                        flex-basis: auto;
+                                        color: var(--color-azul-escuro);
+                                    }
+                                    /*Finalizar Compra*/
+                                    
+                                    .modal-carrinho__btns-area {
+                                        display: flex;
+                                        justify-content: center;
+                                    }
+                                    
+                                    .botao--verde {
+                                        background-color: var(--color-sucesso);
+                                        justify-content: center;
+                                        align-items: center;
+                                        border-radius: 12px;
+                                        margin-top: 16px;
+                                        padding: 16px 60px;
+                                        font: 400 20px Inter, sans-serif;
+                                        cursor: pointer;
+                                    }
+                                    
+                                    .botao--verde:hover {
+                                        background-color: var(--color-sucesso-hover);
+                                    }
